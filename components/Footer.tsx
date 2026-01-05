@@ -82,11 +82,14 @@ export default function Footer() {
 
                 {/* Bottom Bar */}
                 <div className="mt-12 pt-8 border-t border-gray-700">
-                    <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-                        <p className="text-sm text-center md:text-left">
+                    <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-gray-400">
+                        <p className="text-sm text-center md:text-left md:w-1/3">
                             © {new Date().getFullYear()} KVNR Law Associates. All rights reserved.
                         </p>
-                        <p className="text-xs text-center md:text-right max-w-md">
+                        <p className="text-sm font-medium text-gold-500/60 text-center md:w-1/3 italic">
+                            Powered by KMK Solutions
+                        </p>
+                        <p className="text-[10px] md:text-xs text-center md:text-right max-w-md md:w-1/3 opacity-80">
                             This website does not constitute advertisement or solicitation.
                             Information provided is for general awareness only.
                         </p>
