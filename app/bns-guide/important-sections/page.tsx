@@ -219,7 +219,7 @@ export default function ImportantSectionsPage() {
                             {/* Desktop Table View */}
                             <div className="hidden lg:block overflow-x-auto">
                                 <table className="w-full border-collapse">
-                                    <thead className="bg-navy-900 text-white sticky top-48 z-20">
+                                    <thead className="bg-navy-900 text-white">
                                         <tr>
                                             <th className="p-4 text-left text-sm font-semibold">IPC Section</th>
                                             <th className="p-4 text-left text-sm font-semibold">BNS Section</th>
